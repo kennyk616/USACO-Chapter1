@@ -96,6 +96,7 @@ public class checker {
 		}
 		out.println(count);
 		out.close();
+		br.close();
 		System.exit(0);
 	}
 

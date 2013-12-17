@@ -83,6 +83,7 @@ public class milk3 {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("milk3.out")));
 		out.println(possibleAmounts);
 		out.close();
+		br.close();
 		System.exit(0);
 		
 	}

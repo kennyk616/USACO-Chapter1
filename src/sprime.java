@@ -65,6 +65,7 @@ public class sprime {
 			out.println(i);
 		}
 		out.close();
+		br.close();
 		System.exit(0);
 	}
 

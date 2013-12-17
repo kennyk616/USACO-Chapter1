@@ -78,6 +78,7 @@ public class ariprog {
 			}
 		}
 		out.close();
+		br.close();
 		System.exit(0);
 		
 	}

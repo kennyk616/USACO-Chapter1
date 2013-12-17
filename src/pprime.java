@@ -76,6 +76,7 @@ public class pprime {
 			out.println(i.intValue());
 		}
 		out.close();
+		br.close();
 		System.exit(0);
 	}
 

@@ -34,6 +34,7 @@ public class numtri {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("numtri.out")));
 		out.println(maxVal);
 		out.close();
+		br.close();
 		System.exit(0);
 	}
 
