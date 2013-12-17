@@ -26,16 +26,14 @@ public class gift1 {
 			int total = Integer.parseInt(st.nextToken());
 			int n = Integer.parseInt(st.nextToken());
 			int give = 0;
-			int leftOver = 0;
 			if (n != 0) {
 				give = total/n;
-				leftOver = total%n;
 			}
 			for (int i = 0; i<n; i++){
 				String receiver = br.readLine();
+				money.put(giver, money.get(giver)-give);
 				money.put(receiver, money.get(receiver)+give);
 			}
-			money.put(giver, money.get(giver)-total+leftOver);
 		}
 		
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("gift1.out")));
