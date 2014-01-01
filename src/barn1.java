@@ -36,7 +36,7 @@ public class barn1 {
 		BufferedReader br = new BufferedReader(new FileReader("barn1.in"));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int m = Integer.parseInt(st.nextToken());
-		int s = Integer.parseInt(st.nextToken());
+		st.nextToken();
 		int c = Integer.parseInt(st.nextToken());
 		
 		int[] occupied = new int[c];
